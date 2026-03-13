@@ -7795,7 +7795,19 @@ a.anchor-link {
 </style>
 <!-- End of mermaid configuration --></head>
 <body class="jp-Notebook" data-jp-theme-light="true" data-jp-theme-name="JupyterLab Light">
-<main><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=f2185914-bde3-4301-a577-f1bd9bc4b9c5">
+<main>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=d52a3d81-ead4-4687-9a1f-043c08a2502d">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h1 id="Spotify-Dataframe">Spotify Dataframe<a class="anchor-link" href="#Spotify-Dataframe">¶</a></h1><p>Se manipulo un dataframe de spotify mediando el uso de las librerias pandas y numpy en python</p>
+<h4 id="Se-importaron-as-librerias,-asi-como-se-hizo-la-lectura-y-carga-del-archivo-%22dataset.csv%22">Se importaron as librerias, asi como se hizo la lectura y carga del archivo "dataset.csv"<a class="anchor-link" href="#Se-importaron-as-librerias,-asi-como-se-hizo-la-lectura-y-carga-del-archivo-%22dataset.csv%22">¶</a></h4>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=f2185914-bde3-4301-a577-f1bd9bc4b9c5">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -7991,6 +8003,17 @@ a.anchor-link {
 </div>
 </div>
 </div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=ab107458-0487-41d2-ad65-aee3a8dbcf97">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h4 id="Muestra-las-dimensiones-del-DataFrame.">Muestra las dimensiones del DataFrame.<a class="anchor-link" href="#Muestra-las-dimensiones-del-DataFrame.">¶</a></h4>
+</div>
+</div>
+</div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=001ad88b-3c3a-489e-b554-ec453925764b">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
@@ -8015,6 +8038,17 @@ a.anchor-link {
 <pre>shape (114000, 21)
 </pre>
 </div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=d01573a3-f81c-4137-ae3a-31883025388d">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h4 id="Lista-los-nombres-de-todas-las-columnas-(variables)-disponibles.">Lista los nombres de todas las columnas (variables) disponibles.<a class="anchor-link" href="#Lista-los-nombres-de-todas-las-columnas-(variables)-disponibles.">¶</a></h4>
 </div>
 </div>
 </div>
@@ -8047,6 +8081,22 @@ a.anchor-link {
       dtype='str')
 </pre>
 </div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=0199b6f0-1931-4594-82ba-4864a47e3b68">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h4 id="Muestra-los-datos-que-faltan">Muestra los datos que faltan<a class="anchor-link" href="#Muestra-los-datos-que-faltan">¶</a></h4><ul>
+<li>isna(): Revisa cada celda del DataFrame y marca con True si está vacía (NaN) y False si tiene datos.</li>
+<li>sum(): Suma todos los True. En Python, True vale 1, así que esto te da el total de valores nulos por cada columna.</li>
+<li>sort_values(ascending=False): Ordena las columnas de mayor a menor cantidad de nulos. Las columnas "más rotas" aparecen arriba.</li>
+<li>head(10): Solo te muestra las 10 columnas con más datos faltantes.</li>
+</ul>
 </div>
 </div>
 </div>
@@ -8084,6 +8134,23 @@ energy          0
 dtype: int64
 </pre>
 </div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=c0e9d72e-abb5-4ae6-a2d1-1bf7cacc9b6a">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h4 id="Agregaciones-por-genero">Agregaciones por genero<a class="anchor-link" href="#Agregaciones-por-genero">¶</a></h4><ul>
+<li>Se agrupa por genero y se mantiene como columna normal</li>
+<li>Se calcula el promedio de popularidad por genero</li>
+<li>Conteo de canciones por genero</li>
+<li>Se ordena por el promedio de popularidad de manera descendente</li>
+<li>Se muestran los primeros 10 registros</li>
+</ul>
 </div>
 </div>
 </div>
